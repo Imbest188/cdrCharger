@@ -7,9 +7,9 @@ class SettingManager:
 
     def __defaultConfig(self):
         config = configparser.ConfigParser()
-        config['FTP'] = {'host': '10.5.5.254', 'user': 'stat', 'password': 'mp26NokdpPpkM'}
+        config['FTP'] = {'host': 'убрал', 'user': 'убрал', 'password': 'убрал'}
         config['FtpPath'] = {'MSS1': '/msc/MSSLUG01/CHARGING/', 'MSS2': '/msc/MSSLUG02/CHARGING/'}
-        config['Database'] = {'host': '10.5.5.254', 'user': 'smena', 'password': 'postgres20094',
+        config['Database'] = {'host': 'убрал', 'user': 'убрал', 'password': 'убрал',
                               'dbname': 'mss', 'table': 'cdr'}
         config['Bot'] = {'token': ''}
         config['WhiteList'] = {'chat': 'id'}
